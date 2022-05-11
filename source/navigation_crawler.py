@@ -212,3 +212,4 @@ def set_location_and_crawling(years, driver, directory, is_monthly=False, is_yea
                             if end == 202203:
                                 break #마지막 자료 다운로드 후 for 문 종료
                             
+ 
