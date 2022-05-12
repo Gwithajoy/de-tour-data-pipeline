@@ -45,4 +45,3 @@ if __name__ == '__main__':
     years = set_year_date(driver,is_monthly=True)
     set_location_and_crawling(years,driver,path+'navtigation_data/', is_monthly=True)
     sort_by_location_year_month(path+'navigaition_data','검색건수비교')
-    
