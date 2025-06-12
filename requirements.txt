@@ -1,0 +1,6 @@
+selenium
+pandas
+sqlalchemy
+pymysql
+pymongo
+webdriver-manager
