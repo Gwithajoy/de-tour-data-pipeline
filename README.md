@@ -28,9 +28,10 @@
 - **수집 방법**: Selenium 크롤러 + Crontab 스케줄러 자동화  
 
 # 월별·연도별 자동 다운로드 예시
+```
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-```
 def crawl_monthly(years, driver, directory):
     for year_month in years:
         # 기간 설정 및 지역 선택 후 다운로드
