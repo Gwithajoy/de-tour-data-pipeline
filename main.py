@@ -7,13 +7,13 @@ from loader.send_mysql import to_mysql
 from loader.mongo_loader import to_mongo
 
 # 환경설정
-USER_ID   = "gkfakdrn218@naver.com"
-PASSWORD  = "bg2181357!"
-BASE_PATH = "/Users/glebang/Desktop/team4"
+USER_ID   = ""
+PASSWORD  = ""
+BASE_PATH = ""
 MYSQL_CFG = dict(user="dbuser", pw="dbpw", host="db.host.com", db="naver")
-MONGO_URI = "mongodb://ec2-52-79-243-3.ap-northeast-2.compute.amazonaws.com:27017"
-MONGO_DB  = "naver"
-MONGO_COLL= "코엑스"
+MONGO_URI = "mongodb://ec2-**-79-***-3.ap-northeast-2.compute.amazonaws.com:27017"
+MONGO_DB  = ""
+MONGO_COLL= ""
 
 METRICS = [
     {
