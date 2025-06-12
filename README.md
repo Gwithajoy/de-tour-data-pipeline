@@ -28,7 +28,6 @@ cat << 'EOF' > README.md
 - **수집 기간/볼륨**: 2018.03 ~ 2022.04, 총 17개 지역 × 월별/연별 약 3,072개 파일  
 - **수집 방법**: Selenium 크롤러 + Crontab 스케줄러 자동화  
 
-```python
 # 월별·연도별 자동 다운로드 예시
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
