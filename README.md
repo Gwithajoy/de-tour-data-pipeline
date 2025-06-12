@@ -1,5 +1,4 @@
-cat << 'EOF' > README.md
-# Epilogue_ETL 및 분석 파이프라인
+# Korea Tour ETL 및 트렌드 시각화 파이프라인
 
 ## 1. 프로젝트 개요
 
@@ -31,11 +30,13 @@ cat << 'EOF' > README.md
 # 월별·연도별 자동 다운로드 예시
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-
+```
 def crawl_monthly(years, driver, directory):
     for year_month in years:
         # 기간 설정 및 지역 선택 후 다운로드
         ...
+```
+---
 
 ### 2.2 데이터 처리 및 저장 (Transform)
 1. **파일명에서 `기준연월` 및 `지역명` 추출·컬럼 추가**
